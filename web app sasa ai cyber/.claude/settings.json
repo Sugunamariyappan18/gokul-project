@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Buddy/OneDrive/Desktop/web/ app/ sasa/ ai/ cyber/phishguard/backend/app/api/v1/**)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/ -x --tb=short)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/test_api_keys.py::TestAPIKeys::test_list_empty --tb=long)"
+    ]
+  }
+}
